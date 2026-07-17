@@ -132,7 +132,7 @@ else:
         else:
             # 原生赔率模式：自动高亮全网最高水位 (浅绿色)
             st.dataframe(
-                df_odds.style.highlight_max(subset=numeric_cols, color='#c3f0ca', text_color='black'), 
+                df_odds.style.highlight_max(subset=numeric_cols, color='#c3f0ca'), 
                 use_container_width=True, 
                 hide_index=True
             )
