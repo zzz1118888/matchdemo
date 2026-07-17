@@ -18,9 +18,9 @@ SPORT_KEYS = {
 
 # 🌟 新增：玩法字典
 MARKET_KEYS = {
-    "📊 独赢盘 (胜平负/1X2)": "h2h",
-    "⚖️ 让球盘 (Handicap/Spreads)": "spreads",
-    "⚽ 入球大小 (Over/Under/Totals)": "totals"
+    "独赢盘 (胜平负/1X2)": "h2h",
+    "让球盘 (Handicap/Spreads)": "spreads",
+    "入球大小 (Over/Under/Totals)": "totals"
 }
 
 # ================= 核心抓取逻辑 =================
