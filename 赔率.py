@@ -4,7 +4,7 @@ import requests
 
 # ================= 配置页面 =================
 st.set_page_config(page_title="全球赛事实时赔率监控中心", layout="wide")
-st.title("全球赛事实时赔率监控中心 (Ultimate版)")
+st.title("全球赛事实时赔率监控中心")
 st.markdown("对接全球真实博彩公司数据接口，支持多盘口玩法切换。**系统严格遵循客观数据源，无开盘数据的选项将留空，杜绝行情造假。**")
 
 API_KEY = 'f57a64cbf23b946e6e533dcc4bc1fabf' 
